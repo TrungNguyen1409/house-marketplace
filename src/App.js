@@ -3,6 +3,7 @@ import Explore from "./pages/Explore";
 import ForgotPassword from "./pages/ForgotPassword";
 import Offer from "./pages/Offer";
 import SignUp from "./pages/SignUp";
+
 import Profile from "./pages/Profile";
 import SignIn from "./pages/SignIn";
 import NavBar from "./components/NavBar";
