@@ -5,6 +5,7 @@ import Offer from "./pages/Offer";
 import SignUp from "./pages/SignUp";
 import Profile from "./pages/Profile";
 import SignIn from "./pages/SignIn";
+import NavBar from "./components/NavBar";
 
 
 
@@ -20,6 +21,8 @@ function App() {
           <Route path='/sign-up' element={<SignUp/>}></Route>
           <Route path='/forgot-password' element={<ForgotPassword/>}></Route>
         </Routes>
+
+      <NavBar></NavBar>
       </Router>
 
       {/* NAVBAR */}
